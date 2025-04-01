@@ -25,11 +25,10 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
           <img 
-            src="/lovable-uploads/2ce08454-ea8d-43cb-a7c8-2ade8c77d487.png" 
+            src="/lovable-uploads/a3ccaff4-b916-4464-aea5-e9bca9a50f4f.png" 
             alt="Polish AI Breakfasts Logo" 
             className="h-10 green-glow"
           />
-          <span className="ml-3 text-2xl font-bold text-white">Polish AI <span className="text-[#42DCA3]">Breakfasts</span></span>
         </div>
         <nav className="hidden md:flex space-x-8 items-center">
           <a href="#agenda" className="text-white hover:text-[#42DCA3] transition-colors">Agenda</a>

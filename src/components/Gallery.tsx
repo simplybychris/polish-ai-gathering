@@ -2,8 +2,6 @@
 const Gallery = () => {
   const images = [
     "/lovable-uploads/f7f9b771-455f-4b70-8de6-1c1c5471e21a.png",
-    "/lovable-uploads/6472a3f7-3393-44d0-9f20-e844c7a82ef0.png",
-    "/lovable-uploads/ac654478-6f44-4b6c-bb55-06eccd984f67.png",
     "/lovable-uploads/29e96310-1b0d-42be-8888-a5e67547aded.png",
     "/lovable-uploads/908b8bca-48f9-48e6-93e7-5db8467de1d5.png",
     "/lovable-uploads/8430cfa6-f630-4e5d-a7ae-d337124477f7.png",
@@ -17,7 +15,7 @@ const Gallery = () => {
           Zobacz zdjęcia z naszych poprzednich spotkań
         </p>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {images.map((image, index) => (
             <div key={index} className="overflow-hidden rounded-lg border border-[#42DCA3]/20 hover:border-[#42DCA3] transition-all group">
               <img

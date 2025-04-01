@@ -6,11 +6,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-12">
           <div className="flex items-center mb-6 md:mb-0">
             <img 
-              src="/lovable-uploads/2ce08454-ea8d-43cb-a7c8-2ade8c77d487.png" 
+              src="/lovable-uploads/a3ccaff4-b916-4464-aea5-e9bca9a50f4f.png" 
               alt="Polish AI Breakfasts Logo" 
               className="h-10 green-glow"
             />
-            <span className="ml-3 text-2xl font-bold text-white">Polish AI <span className="text-[#42DCA3]">Breakfasts</span></span>
           </div>
           
           <div className="flex space-x-8">
