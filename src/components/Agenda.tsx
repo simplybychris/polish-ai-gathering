@@ -1,60 +1,47 @@
-
 import { Button } from "@/components/ui/button";
-
 const Agenda = () => {
-  const agendaItems = [
-    {
-      time: "16:00",
-      endTime: "16:30",
-      title: "Rejestracja uczestników & networking",
-      location: "WEJŚCIE • PAIB_WARSAW"
-    },
-    {
-      time: "16:30",
-      endTime: "17:30",
-      title: "Moderowany networking",
-      location: "WEJŚCIE • PAIB_WARSAW"
-    },
-    {
-      time: "17:30",
-      endTime: "17:40",
-      title: "Przywitanie gości i otwarcie części merytorycznej",
-      location: "AULA • PAIB_WARSAW"
-    },
-    {
-      time: "17:40",
-      endTime: "18:00",
-      title: "Prelekcja wprowadzająca do debaty",
-      location: "AULA • PAIB_WARSAW"
-    },
-    {
-      time: "18:00",
-      endTime: "18:40",
-      title: "Panel dyskusyjny - Polskie LLMy",
-      location: "AULA • PAIB_WARSAW"
-    },
-    {
-      time: "18:40",
-      endTime: "20:10",
-      title: "PAIB First Challenge",
-      location: "AULA • PAIB_WARSAW"
-    },
-    {
-      time: "20:10",
-      endTime: "22:00",
-      title: "Networking",
-      location: "AULA • PAIB_WARSAW"
-    },
-    {
-      time: "22:00",
-      endTime: "23:59",
-      title: "Afterparty",
-      location: "WARSAW • PAIB_WARSAW"
-    }
-  ];
-
-  return (
-    <section id="agenda" className="py-24 tech-pattern">
+  const agendaItems = [{
+    time: "16:00",
+    endTime: "16:30",
+    title: "Rejestracja uczestników & networking",
+    location: "WEJŚCIE • PAIB_WARSAW"
+  }, {
+    time: "16:30",
+    endTime: "17:30",
+    title: "Moderowany networking",
+    location: "WEJŚCIE • PAIB_WARSAW"
+  }, {
+    time: "17:30",
+    endTime: "17:40",
+    title: "Przywitanie gości i otwarcie części merytorycznej",
+    location: "AULA • PAIB_WARSAW"
+  }, {
+    time: "17:40",
+    endTime: "18:00",
+    title: "Prelekcja wprowadzająca do debaty",
+    location: "AULA • PAIB_WARSAW"
+  }, {
+    time: "18:00",
+    endTime: "18:40",
+    title: "Panel dyskusyjny - Polskie LLMy",
+    location: "AULA • PAIB_WARSAW"
+  }, {
+    time: "18:40",
+    endTime: "20:10",
+    title: "PAIB First Challenge",
+    location: "AULA • PAIB_WARSAW"
+  }, {
+    time: "20:10",
+    endTime: "22:00",
+    title: "Networking",
+    location: "AULA • PAIB_WARSAW"
+  }, {
+    time: "22:00",
+    endTime: "23:59",
+    title: "Afterparty",
+    location: "WARSAW • PAIB_WARSAW"
+  }];
+  return <section id="agenda" className="py-24 tech-pattern">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">Agenda</h2>
         <p className="text-center text-gray-300 mb-12 max-w-2xl mx-auto">
@@ -68,8 +55,7 @@ const Agenda = () => {
           </div>
           
           <div className="space-y-8">
-            {agendaItems.map((item, index) => (
-              <div key={index} className="agenda-item">
+            {agendaItems.map((item, index) => <div key={index} className="agenda-item">
                 <div className="flex flex-col md:flex-row md:items-center justify-between">
                   <div className="mb-2 md:mb-0">
                     <h3 className="text-lg font-semibold text-white">{item.title}</h3>
@@ -79,8 +65,7 @@ const Agenda = () => {
                     {item.time} - {item.endTime}
                   </div>
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
           
           <div className="mt-10 text-center">
@@ -92,8 +77,6 @@ const Agenda = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Agenda;

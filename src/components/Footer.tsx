@@ -1,15 +1,9 @@
-
 const Footer = () => {
-  return (
-    <footer className="bg-black py-16 border-t border-[#42DCA3]/20">
+  return <footer className="bg-black py-16 border-t border-[#42DCA3]/20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center mb-12">
           <div className="flex items-center mb-6 md:mb-0">
-            <img 
-              src="/lovable-uploads/a3ccaff4-b916-4464-aea5-e9bca9a50f4f.png" 
-              alt="Polish AI Breakfasts Logo" 
-              className="h-10 green-glow"
-            />
+            <img src="/lovable-uploads/a3ccaff4-b916-4464-aea5-e9bca9a50f4f.png" alt="Polish AI Breakfasts Logo" className="h-10 green-glow" />
           </div>
           
           <div className="flex space-x-8">
@@ -21,9 +15,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-[#42DCA3]/20 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-gray-400 mb-4 md:mb-0">
-            © 2024 Polish AI Breakfasts. Wszelkie prawa zastrzeżone.
-          </div>
+          <div className="text-gray-400 mb-4 md:mb-0">© 2025 Polish AI Breakfasts. Wszelkie prawa zastrzeżone.</div>
           
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-[#42DCA3] transition-colors">
@@ -49,8 +41,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
