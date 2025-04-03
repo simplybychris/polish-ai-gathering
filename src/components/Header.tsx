@@ -1,10 +1,12 @@
 
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
+  const isMeetupPage = location.pathname === "/meetup";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,7 +37,12 @@ const Header = () => {
         </div>
         <nav className="hidden md:flex space-x-8 items-center">
           <Link to="/" className="text-white hover:text-[#56FF8F] transition-colors">Home</Link>
-          <Link to="/meetup" className="text-white hover:text-[#56FF8F] transition-colors">Meetup</Link>
+          <Link 
+            to="/meetup" 
+            className={`transition-colors ${isMeetupPage ? 'text-[#56FF8F] font-medium' : 'text-white hover:text-[#56FF8F]'}`}
+          >
+            Meetup
+          </Link>
           <a href="#o-nas" className="text-white hover:text-[#56FF8F] transition-colors">O nas</a>
           <a href="#galeria" className="text-white hover:text-[#56FF8F] transition-colors">Galeria</a>
           <Button asChild className="bg-[#56FF8F] text-black hover:bg-[#56FF8F]/80">

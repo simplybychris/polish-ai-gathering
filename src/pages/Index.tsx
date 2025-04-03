@@ -9,7 +9,6 @@ import Stats from '../components/Stats';
 import Gallery from '../components/Gallery';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import CTA from '../components/CTA';
 import BottomCTA from '../components/BottomCTA';
 
 export default function Index() {
@@ -20,9 +19,7 @@ export default function Index() {
         <Hero />
         <About />
         <Community />
-        <Agenda />
         <ForWho />
-        <CTA className="bg-[#111a2f]" />
         <Stats />
         <Gallery />
         <BottomCTA />
