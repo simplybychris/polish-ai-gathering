@@ -38,6 +38,35 @@ const MeetupHero = () => {
             <CountdownTimer targetDate={eventDate} className="mb-0" />
           </div>
           
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 mb-10">
+            <div className="bg-[#111a2f] p-6 rounded-xl text-left">
+              <div className="flex items-center mb-3">
+                <div className="w-10 h-10 rounded-full bg-[#56FF8F] flex items-center justify-center text-black font-bold mr-3">
+                  🏆
+                </div>
+                <h3 className="text-xl font-bold text-[#56FF8F]">Konkurs dla startupów</h3>
+              </div>
+              <p className="text-gray-300">
+                Podczas pierwszego meetupu odbędzie się wyjątkowy konkurs dla startupów AI. Najlepsze projekty będą miały szansę na nagrody, mentoring i potencjalne inwestycje. Szczegóły konkursu zostaną ogłoszone podczas wydarzenia.
+              </p>
+            </div>
+            
+            <div className="bg-[#111a2f] p-6 rounded-xl text-left">
+              <div className="flex items-center mb-3">
+                <div className="w-10 h-10 rounded-full bg-[#56FF8F] flex items-center justify-center text-black font-bold mr-3">
+                  🔍
+                </div>
+                <h3 className="text-xl font-bold text-[#56FF8F]">Dlaczego warto uczestniczyć?</h3>
+              </div>
+              <ul className="text-gray-300 list-disc pl-5 space-y-2">
+                <li>Networking z ekspertami AI</li>
+                <li>Inspirujące prezentacje i case studies</li>
+                <li>Możliwość prezentacji własnych projektów</li>
+                <li>Dostęp do unikalnej społeczności AI w Polsce</li>
+              </ul>
+            </div>
+          </div>
+          
           <Button 
             className="bg-[#56FF8F] text-black hover:bg-[#56FF8F]/80 px-8 py-6 text-lg font-medium rounded-md"
             onClick={() => window.open('https://landing.meetingapplication.com/event/polish-ai-breakfasts-meetup11068', '_blank')}
