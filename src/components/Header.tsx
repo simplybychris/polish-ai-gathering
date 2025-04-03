@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,20 +25,22 @@ const Header = () => {
     <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-md' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
-          <img 
-            src="/lovable-uploads/a3ccaff4-b916-4464-aea5-e9bca9a50f4f.png" 
-            alt="Polish AI Breakfasts Logo" 
-            className="h-10 green-glow"
-          />
+          <Link to="/">
+            <img 
+              src="/lovable-uploads/a3ccaff4-b916-4464-aea5-e9bca9a50f4f.png" 
+              alt="Polish AI Breakfasts Logo" 
+              className="h-10 green-glow"
+            />
+          </Link>
         </div>
         <nav className="hidden md:flex space-x-8 items-center">
-          <a href="#agenda" className="text-white hover:text-[#56FF8F] transition-colors">Agenda</a>
+          <Link to="/" className="text-white hover:text-[#56FF8F] transition-colors">Home</Link>
+          <Link to="/meetup" className="text-white hover:text-[#56FF8F] transition-colors">Meetup</Link>
           <a href="#o-nas" className="text-white hover:text-[#56FF8F] transition-colors">O nas</a>
-          <a href="#dla-kogo" className="text-white hover:text-[#56FF8F] transition-colors">Dla kogo</a>
           <a href="#galeria" className="text-white hover:text-[#56FF8F] transition-colors">Galeria</a>
           <Button asChild className="bg-[#56FF8F] text-black hover:bg-[#56FF8F]/80">
             <a href="https://landing.meetingapplication.com/event/polish-ai-breakfasts-meetup11068" target="_blank" rel="noopener noreferrer">
-              Zarejestruj się
+              Kup bilet
             </a>
           </Button>
         </nav>

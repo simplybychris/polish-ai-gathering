@@ -16,10 +16,10 @@ const CTA: React.FC<CTAProps> = ({ className }) => {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Dołącz do największej społeczności AI w Polsce
+            Dołącz do pierwszego meetupu Polish AI Breakfasts
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-200 md:text-xl">
-            Pierwszy meetup odbędzie się 23 kwietnia 2025 o godzinie 16:00 w Warszawie. Liczba miejsc ograniczona!
+            Nasze pierwsze oficjalne spotkanie odbędzie się 23 kwietnia 2025 o godzinie 16:00 w Warszawie. Liczba miejsc ograniczona!
           </p>
           
           <CountdownTimer targetDate={eventDate} className="my-8" />
