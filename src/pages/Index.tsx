@@ -1,26 +1,33 @@
 
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Agenda from "@/components/Agenda";
-import ForWho from "@/components/ForWho";
-import Gallery from "@/components/Gallery";
-import Stats from "@/components/Stats";
-import Footer from "@/components/Footer";
+import React from 'react';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Agenda from '../components/Agenda';
+import ForWho from '../components/ForWho';
+import Community from '../components/Community';
+import Stats from '../components/Stats';
+import Gallery from '../components/Gallery';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import CTA from '../components/CTA';
+import BottomCTA from '../components/BottomCTA';
 
-const Index = () => {
+export default function Index() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="flex min-h-[100dvh] flex-col bg-[#0a1122] text-white">
       <Header />
-      <Hero />
-      <About />
-      <Agenda />
-      <ForWho />
-      <Stats />
-      <Gallery />
+      <main className="flex-1">
+        <Hero />
+        <About />
+        <Community />
+        <Agenda />
+        <ForWho />
+        <CTA className="bg-[#111a2f]" />
+        <Stats />
+        <Gallery />
+        <BottomCTA />
+      </main>
       <Footer />
     </div>
   );
-};
-
-export default Index;
+}
