@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 const Hero = () => {
   return <section className="relative min-h-[100vh] flex items-center tech-pattern">
@@ -16,21 +17,21 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="text-white block mb-2">Polish AI</span>
-            <span className="text-[#42DCA3] neon-glow">Breakfasts</span>
+            <span className="text-[#56FF8F] neon-glow">Breakfasts Meetup</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8">
-            Najbliższe spotkanie: <span className="text-white font-semibold">23 kwietnia, środa</span> o <span className="text-white font-semibold">16:00</span>
+            Pierwszy meetup: <span className="text-white font-semibold">23 kwietnia, środa</span> o <span className="text-white font-semibold">16:00</span>
           </p>
           <p className="text-base md:text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
             Dołącz do największej społeczności osób zainteresowanych sztuczną inteligencją w Polsce. Zdobądź praktyczną wiedzę, poznaj legendy Polish świata AI i nawiąż wartościowe kontakty branżowe.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-[#42DCA3] text-black hover:bg-[#42DCA3]/80">
+            <Button asChild size="lg" className="bg-[#56FF8F] text-black hover:bg-[#56FF8F]/80">
               <a href="https://landing.meetingapplication.com/event/polish-ai-breakfasts-meetup11068" target="_blank" rel="noopener noreferrer">
                 Zarejestruj się
               </a>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-[#42DCA3] text-[#42DCA3] hover:bg-[#42DCA3]/10">
+            <Button asChild size="lg" variant="outline" className="border-[#56FF8F] text-[#56FF8F] hover:bg-[#56FF8F]/10">
               <a href="#agenda">Zobacz agendę</a>
             </Button>
           </div>

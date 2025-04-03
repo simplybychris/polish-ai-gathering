@@ -31,11 +31,11 @@ const Header = () => {
           />
         </div>
         <nav className="hidden md:flex space-x-8 items-center">
-          <a href="#agenda" className="text-white hover:text-[#42DCA3] transition-colors">Agenda</a>
-          <a href="#o-nas" className="text-white hover:text-[#42DCA3] transition-colors">O nas</a>
-          <a href="#dla-kogo" className="text-white hover:text-[#42DCA3] transition-colors">Dla kogo</a>
-          <a href="#galeria" className="text-white hover:text-[#42DCA3] transition-colors">Galeria</a>
-          <Button asChild className="bg-[#42DCA3] text-black hover:bg-[#42DCA3]/80">
+          <a href="#agenda" className="text-white hover:text-[#56FF8F] transition-colors">Agenda</a>
+          <a href="#o-nas" className="text-white hover:text-[#56FF8F] transition-colors">O nas</a>
+          <a href="#dla-kogo" className="text-white hover:text-[#56FF8F] transition-colors">Dla kogo</a>
+          <a href="#galeria" className="text-white hover:text-[#56FF8F] transition-colors">Galeria</a>
+          <Button asChild className="bg-[#56FF8F] text-black hover:bg-[#56FF8F]/80">
             <a href="https://landing.meetingapplication.com/event/polish-ai-breakfasts-meetup11068" target="_blank" rel="noopener noreferrer">
               Zarejestruj się
             </a>

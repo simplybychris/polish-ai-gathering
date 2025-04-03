@@ -19,13 +19,13 @@ const CTA: React.FC<CTAProps> = ({ className }) => {
             Dołącz do największej społeczności AI w Polsce
           </h2>
           <p className="mx-auto max-w-[700px] text-gray-200 md:text-xl">
-            Spotkanie odbędzie się 23 kwietnia 2025 o godzinie 16:00 w Warszawie. Liczba miejsc ograniczona!
+            Pierwszy meetup odbędzie się 23 kwietnia 2025 o godzinie 16:00 w Warszawie. Liczba miejsc ograniczona!
           </p>
           
           <CountdownTimer targetDate={eventDate} className="my-8" />
           
           <Button 
-            className="bg-[#56FC8D] text-black hover:bg-[#3fe474] transition-colors px-8 py-6 text-lg font-medium rounded-md"
+            className="bg-[#56FF8F] text-black hover:bg-[#56FF8F]/80 transition-colors px-8 py-6 text-lg font-medium rounded-md"
             onClick={() => window.open('https://landing.meetingapplication.com/event/polish-ai-breakfasts-meetup11068', '_blank')}
           >
             Kup bilet teraz

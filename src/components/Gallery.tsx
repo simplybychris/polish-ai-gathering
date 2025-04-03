@@ -10,17 +10,17 @@ const Gallery = () => {
   return (
     <section id="galeria" className="py-24 bg-[#111827]">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">Tak spędzamy czas kodując AI</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">Społeczność Polish AI Breakfasts Meetup</h2>
         <p className="text-center text-gray-300 mb-12 max-w-2xl mx-auto">
           Zobacz zdjęcia z naszych poprzednich spotkań
         </p>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {images.map((image, index) => (
-            <div key={index} className="overflow-hidden rounded-lg border border-[#42DCA3]/20 hover:border-[#42DCA3] transition-all group">
+            <div key={index} className="overflow-hidden rounded-lg border border-[#56FF8F]/20 hover:border-[#56FF8F] transition-all group">
               <img
                 src={image}
-                alt={`Polish AI Breakfasts - zdjęcie ${index + 1}`}
+                alt={`Polish AI Breakfasts Meetup - zdjęcie ${index + 1}`}
                 className="w-full h-64 object-cover transition-transform group-hover:scale-105"
               />
             </div>
@@ -28,7 +28,7 @@ const Gallery = () => {
         </div>
         
         <div className="mt-16 flex flex-col items-center justify-center space-y-6">
-          <h3 className="text-2xl font-bold">Dołącz na kolejnym spotkaniu!</h3>
+          <h3 className="text-2xl font-bold">Dołącz na pierwszym meetupie!</h3>
           <p className="text-gray-300 text-center max-w-2xl">
             Nie przegap szansy na spotkanie z ekspertami AI i nawiązanie nowych kontaktów branżowych. Zarejestruj się już dziś!
           </p>
