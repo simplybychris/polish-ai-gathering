@@ -8,6 +8,7 @@ import Gallery from '../components/Gallery';
 import MeetupHero from '../components/MeetupHero';
 import BottomCTA from '../components/BottomCTA';
 import Stats from '../components/Stats';
+import MeetupFirstSection from '@/components/MeetupFirstSection';
 
 export default function Meetup() {
   return (
@@ -15,6 +16,7 @@ export default function Meetup() {
       <Header />
       <main className="flex-1">
         <MeetupHero />
+        <MeetupFirstSection />
         <Agenda />
         <Stats />
         <Gallery />

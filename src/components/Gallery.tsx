@@ -28,7 +28,7 @@ const Gallery = () => {
         </div>
         
         <div className="mt-16 flex flex-col items-center justify-center space-y-6">
-          <h3 className="text-2xl font-bold">Dołącz na pierwszym meetupie!</h3>
+          <h3 className="text-2xl font-bold text-center">Dołącz na pierwszym meetupie!</h3>
           <p className="text-gray-300 text-center max-w-2xl">
             Nie przegap szansy na spotkanie z ekspertami AI i nawiązanie nowych kontaktów branżowych. Zarejestruj się już dziś!
           </p>
