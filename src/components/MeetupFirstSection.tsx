@@ -2,7 +2,7 @@ const MeetupFirstSection = () => {
   return (
     <section className='pt-24 relative tech-pattern'>
       <div className='container mx-auto px-4'>
-        <div className='grid md:grid-cols-2 gap-12 items-center mb-20'>
+        <div className='grid md:grid-cols-2 gap-12 items-center pb-20'>
           <div className='relative'>
             <img
               src='/lovable-uploads/2ce08454-ea8d-43cb-a7c8-2ade8c77d487.png'
