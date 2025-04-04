@@ -17,7 +17,7 @@ const About = () => {
           </div>
           <div className="relative">
             <img 
-              src="/lovable-uploads/f3f0955b-ce94-4f0f-ba67-718863fe321d.png" 
+              src="/images/people.jpg" 
               alt="Polish AI Breakfasts Spotkanie" 
               className="rounded-lg shadow-lg border border-[#56FF8F]/30"
             />
