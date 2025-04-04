@@ -10,6 +10,7 @@ import BottomCTA from '../components/BottomCTA';
 import Stats from '../components/Stats';
 import MeetupFirstSection from '@/components/MeetupFirstSection';
 import MeetupMapSection from '@/components/ui/MeetupMapSection';
+import MeetupGoals from '@/components/MeetupGoals';
 
 export default function Meetup() {
   return (
@@ -19,6 +20,7 @@ export default function Meetup() {
         <MeetupHero />
         <MeetupFirstSection />
         <MeetupMapSection />
+        <MeetupGoals />
         <Agenda />
         <Stats />
         <Gallery />
