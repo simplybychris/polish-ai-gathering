@@ -9,6 +9,7 @@ import MeetupHero from '../components/MeetupHero';
 import BottomCTA from '../components/BottomCTA';
 import Stats from '../components/Stats';
 import MeetupFirstSection from '@/components/MeetupFirstSection';
+import MeetupMapSection from '@/components/ui/MeetupMapSection';
 
 export default function Meetup() {
   return (
@@ -17,6 +18,7 @@ export default function Meetup() {
       <main className="flex-1">
         <MeetupHero />
         <MeetupFirstSection />
+        <MeetupMapSection />
         <Agenda />
         <Stats />
         <Gallery />
