@@ -9,7 +9,7 @@ const MeetupGoals = () => {
                 Główne cele
               </span>
             </h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-6 h-full'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-12 h-full'>
               <div className='flex flex-col space-y-4 bg-[#111a2f] p-6 rounded-lg'>
                 <p className='text-gray-300'>
                   <span className='text-[#56FF8F]'>Łączymy</span> ekspertów AI,
