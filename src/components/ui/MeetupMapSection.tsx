@@ -8,7 +8,7 @@ const MeetupMapSection = () => {
           <span className='text-white'>Łączymy ludzi dzięki AI</span>
         </h2>
 
-        <div className='grid md:grid-cols-2 gap-12 items-center'>
+        <div className='grid md:grid-cols-2 gap-12 items-center mb-12'>
           <div>
             <p className='text-gray-300 mb-12'>
               W ostatnich latach w Polsce dynamicznie rozwinęły się liczne
