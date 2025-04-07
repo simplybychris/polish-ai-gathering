@@ -33,7 +33,6 @@ export default function Meetup() {
         <Gallery />
         <OrganizersAndPartners />
         <CTA className="bg-[#111a2f]" />
-        <BottomCTA />
       </main>
       <Footer />
     </div>
