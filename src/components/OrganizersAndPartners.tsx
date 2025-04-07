@@ -27,7 +27,7 @@ const partners = [
 
 const OrganizersAndPartners = () => {
   return (
-    <section id='o-nas' className='py-24 relative tech-pattern'>
+    <section className='py-24 relative tech-pattern'>
       <div className='container mx-auto px-4'>
         <h3 className="text-2xl md:text-3xl font-bold text-center mb-12 text-[#56FF8F]">Organizatorzy</h3>
         <div className='grid grid-cols-2 md:grid-cols-4 gap-4 p-4 place-items-center'>

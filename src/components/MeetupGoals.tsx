@@ -13,7 +13,7 @@ const MeetupGoals = () => {
             </h2>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-12 h-full'>
               <div className='flex flex-col space-y-4 bg-[#111a2f] p-6 rounded-lg'>
-                <p className='text-gray-300'>
+                <p className='text-white'>
                   <span className='text-[#56FF8F]'>Łączymy</span> ekspertów AI,
                   naukowców i praktyków technologicznych – by{' '}
                   <span className='text-[#56FF8F]'>wymieniać się wiedzą</span>,
@@ -21,7 +21,7 @@ const MeetupGoals = () => {
                 </p>
               </div>
               <div className='flex flex-col space-y-4 bg-[#111a2f] p-6 rounded-lg'>
-                <p className='text-gray-300'>
+                <p className='text-white'>
                   Tworzymy{' '}
                   <span className='text-[#56FF8F]'>efektywny networking</span> –
                   dajemy możliwość nawiązywania współpracy między startupami,
@@ -29,7 +29,7 @@ const MeetupGoals = () => {
                 </p>
               </div>
               <div className='flex flex-col space-y-4 bg-[#111a2f] p-6 rounded-lg'>
-                <p className='text-gray-300'>
+                <p className='text-white'>
                   <span className='text-[#56FF8F]'>Wspieramy</span> rozwój
                   innowacji AI –{' '}
                   <span className='text-[#56FF8F]'>pomagamy startupom</span>{' '}
@@ -38,7 +38,7 @@ const MeetupGoals = () => {
                 </p>
               </div>
               <div className='flex flex-col space-y-4 bg-[#111a2f] p-6 rounded-lg'>
-                <p className='text-gray-300'>
+                <p className='text-white'>
                   Angażujemy społeczności lokalne –{' '}
                   <span className='text-[#56FF8F]'>łączymy</span> dotychczas
                   osobne inicjatywy z różnych miast, tworząc jedno silne

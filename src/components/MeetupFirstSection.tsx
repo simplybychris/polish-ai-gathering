@@ -16,7 +16,7 @@ const MeetupFirstSection = () => {
             <h3 className='text-2xl font-bold mb-4 text-[#56FF8F]'>
               Dlaczego warto uczestniczyć?
             </h3>
-            <ol className='text-gray-300 mb-6 list-inside list-disc'>
+            <ol className='text-white mb-6 list-inside list-disc'>
               <li>Networking z ekspertami AI</li>
               <li>Inspirujące prezentacje i case studies</li>
               <li>Możliwość prezentacji własnych projektów</li>

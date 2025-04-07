@@ -121,7 +121,7 @@ const MeetupFirstChallenge = () => {
               <h4 className='text-xl font-semibold mb-2 text-white'>
                 Idea/Pomysł
               </h4>
-              <p className='text-gray-400  text-center'>
+              <p className='text-white  text-center'>
                 Startupy we wczesnej fazie koncepcyjnej
               </p>
             </div>
@@ -204,7 +204,7 @@ const MeetupFirstChallenge = () => {
               <h4 className='text-xl font-semibold mb-2 text-white'>
                 MVP/Prototyp
               </h4>
-              <p className='text-gray-400 text-center'>
+              <p className='text-white text-center'>
                 Startupy posiadające MVP lub prototyp, które pozyskały
                 finansowanie nie większe niż 10 mln zł
               </p>
@@ -288,7 +288,7 @@ const MeetupFirstChallenge = () => {
               <h4 className='text-xl font-semibold mb-2 text-white'>
                 Program AI first
               </h4>
-              <p className='text-gray-400 text-center'>
+              <p className='text-white text-center'>
                 Akceleratory, inkubatory oraz jednostki prowadzące programy
                 startupowe specjalizujące się w AI
               </p>

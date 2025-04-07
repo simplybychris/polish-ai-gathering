@@ -10,14 +10,14 @@ const MeetupMapSection = () => {
 
         <div className='grid md:grid-cols-2 gap-12 items-center mb-12'>
           <div>
-            <p className='text-gray-300 mb-12'>
+            <p className='text-white mb-12'>
               W ostatnich latach w Polsce dynamicznie rozwinęły się liczne
               lokalne społeczności skupione wokół sztucznej inteligencji.
               Spotykają się regularnie, organizują wydarzenia i rozwijają
               lokalne ekosystemy w takich miastach jak Warszawa, Gdańsk czy
               Katowice.
             </p>
-            <p className='text-gray-300'>
+            <p className='text-white'>
               Do tej pory brakowało jednak przestrzeni, gdzie wszystkie te
               środowiska mogłyby się spotkać, wymienić doświadczeniami i
               nawiązać współpracę.
