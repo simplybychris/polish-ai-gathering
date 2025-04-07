@@ -13,6 +13,7 @@ import MeetupMapSection from '@/components/ui/MeetupMapSection';
 import MeetupGoals from '@/components/MeetupGoals';
 import MeetupTargetAudience from '@/components/MeetupTargetAudience';
 import MeetupFirstChallenge from '@/components/MeetupFirstChallenge';
+import OrganizersAndPartners from '@/components/OrganizersAndPartners';
 
 export default function Meetup() {
   return (
@@ -28,6 +29,7 @@ export default function Meetup() {
         <Agenda />
         <Stats />
         <Gallery />
+        <OrganizersAndPartners />
         <CTA className="bg-[#111a2f]" />
         <BottomCTA />
       </main>
