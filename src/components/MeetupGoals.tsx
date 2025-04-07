@@ -5,7 +5,7 @@ const MeetupGoals = () => {
         <div className='max-w-4xl mx-auto text-center'>
           <div className='col-span-1 md:col-span-2'>
             <h2 className='text-3xl md:text-4xl font-bold text-center mb-16'>
-              <span className='text-white border-[#56FF8F] py-2 border-b-4 px-8'>
+              <span className='text-white border-[#56FF8F] py-2 border-b px-8'>
                 Główne cele
               </span>
             </h2>

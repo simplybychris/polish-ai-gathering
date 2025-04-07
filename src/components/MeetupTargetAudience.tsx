@@ -28,7 +28,7 @@ const MeetupTargetAudience = () => {
               <div className='relative'>
                 <img
                   src='/images/target-audience.svg'
-                  alt='Polish AI Breakfasts Spotkanie'
+                  alt='Polish AI Breakfasts Dla kogo'
                   className='rounded-lg shadow-lg'
                 />
                 <div className='absolute w-full h-full  rounded-lg -z-10'></div>

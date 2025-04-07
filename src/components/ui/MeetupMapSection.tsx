@@ -27,7 +27,7 @@ const MeetupMapSection = () => {
           <div className='relative'>
             <img
               src='/images/poland-map.svg'
-              alt='Polish AI Breakfasts Spotkanie'
+              alt='Polish AI Breakfasts Mapa'
               className='rounded-lg shadow-lg'
             />
             <div className='absolute -bottom-3 -right-3 w-full h-full border-2 border-[#56FF8F] rounded-lg -z-10'></div>
