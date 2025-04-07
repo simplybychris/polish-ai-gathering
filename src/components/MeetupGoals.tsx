@@ -1,6 +1,6 @@
 const MeetupGoals = () => {
   return (
-    <section className='tech-pattern'>
+    <section className='py-12 tech-pattern'>
       <div className='container mx-auto px-4 relative z-10'>
         <div className='max-w-4xl mx-auto text-center'>
           <div className='col-span-1 md:col-span-2'>

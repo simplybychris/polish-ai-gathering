@@ -11,6 +11,7 @@ import Stats from '../components/Stats';
 import MeetupFirstSection from '@/components/MeetupFirstSection';
 import MeetupMapSection from '@/components/ui/MeetupMapSection';
 import MeetupGoals from '@/components/MeetupGoals';
+import MeetupTargetAudience from '@/components/MeetupTargetAudience';
 
 export default function Meetup() {
   return (
@@ -21,6 +22,7 @@ export default function Meetup() {
         <MeetupFirstSection />
         <MeetupMapSection />
         <MeetupGoals />
+        <MeetupTargetAudience />
         <Agenda />
         <Stats />
         <Gallery />
