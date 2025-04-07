@@ -1,3 +1,5 @@
+import {Button} from './ui/button';
+
 const MeetupFirstChallenge = () => {
   return (
     <section className='py-12 relative tech-pattern'>
@@ -698,6 +700,19 @@ const MeetupFirstChallenge = () => {
               </svg>
             </div>
           </div>
+          <div className='flex flex-row items-center justify-center mt-16'>
+              <Button
+                className='bg-[#56FF8F] text-black hover:bg-[#56FF8F]/80 transition-colors px-8 py-6 text-lg font-medium rounded-md'
+                onClick={() =>
+                  window.open(
+                    'https://landing.meetingapplication.com/event/polish-ai-breakfasts-meetup11068',
+                    '_blank'
+                  )
+                }
+              >
+                Kup bilet
+              </Button>
+            </div>
         </div>
       </div>
     </section>
