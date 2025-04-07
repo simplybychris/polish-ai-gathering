@@ -14,6 +14,7 @@ import MeetupGoals from '@/components/MeetupGoals';
 import MeetupTargetAudience from '@/components/MeetupTargetAudience';
 import MeetupFirstChallenge from '@/components/MeetupFirstChallenge';
 import OrganizersAndPartners from '@/components/OrganizersAndPartners';
+import MeetupVideo from '@/components/MeetupVideo';
 
 export default function Meetup() {
   return (
@@ -26,6 +27,7 @@ export default function Meetup() {
         <MeetupGoals />
         <MeetupTargetAudience />
         <MeetupFirstChallenge />
+        <MeetupVideo />
         <Agenda />
         <Stats />
         <Gallery />
