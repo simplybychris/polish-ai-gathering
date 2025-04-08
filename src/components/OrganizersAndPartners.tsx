@@ -20,9 +20,9 @@ const partners = [
     { id: 9, src: '/images/logos/partners/polski_fundusz_rozwoju.svg', alt: 'Polski Fundusz Rozwoju' },
     { id: 10, src: '/images/logos/partners/pmb.svg', alt: 'Pitch me Baby' },
     { id: 11, src: '/images/logos/partners/soda.svg', alt: 'SoDA' },
-    { id: 11, src: '/images/logos/partners/ssf.svg', alt: 'silesian startap foundation' },
-    { id: 12, src: '/images/logos/partners/startup_harbour.svg', alt: 'STARTUP HARBOUR' },
-    { id: 12, src: '/images/logos/partners/startup_wroclaw.svg', alt: 'Startup Wrocław' },
+    { id: 12, src: '/images/logos/partners/ssf.svg', alt: 'silesian startap foundation' },
+    { id: 13, src: '/images/logos/partners/startup_harbour.svg', alt: 'STARTUP HARBOUR' },
+    { id: 14, src: '/images/logos/partners/startup_wroclaw.svg', alt: 'Startup Wrocław' },
 ]
 
 const OrganizersAndPartners = () => {
