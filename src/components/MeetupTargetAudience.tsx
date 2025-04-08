@@ -1,3 +1,5 @@
+import {Button} from './ui/button';
+
 const MeetupTargetAudience = () => {
   return (
     <section className='py-12 tech-pattern'>
@@ -35,6 +37,19 @@ const MeetupTargetAudience = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className='flex flex-row items-center justify-center'>
+          <Button
+            className='bg-[#56FF8F] text-black hover:bg-[#56FF8F]/80 transition-colors px-8 py-6 text-lg font-medium rounded-md'
+            onClick={() =>
+              window.open(
+                'https://landing.meetingapplication.com/event/polish-ai-breakfasts-meetup11068',
+                '_blank'
+              )
+            }
+          >
+            Kup bilet
+          </Button>
         </div>
       </div>
     </section>
