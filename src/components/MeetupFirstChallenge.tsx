@@ -1,4 +1,4 @@
-import {Button} from './ui/button';
+import { Button } from './ui/button';
 
 const MeetupFirstChallenge = () => {
   return (
@@ -57,22 +57,22 @@ const MeetupFirstChallenge = () => {
                       cy='41.5'
                       r='41.5'
                       fill='#46FF86'
-                      fill-opacity='0.5'
+                      fillOpacity='0.5'
                     />
                   </g>
                   <path
                     d='M16.083 41.5L41.4997 60.3643L66.9163 41.5'
                     stroke='white'
-                    stroke-width='3'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
+                    strokeWidth='3'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
                   />
                   <path
                     d='M28.791 33.8751L41.4993 44.0418L54.2077 33.8751M38.9577 26.2501L41.4993 28.2835L44.041 26.2501L41.4993 24.2168L38.9577 26.2501Z'
                     stroke='white'
-                    stroke-width='3'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
+                    strokeWidth='3'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
                   />
                   <defs>
                     <filter
@@ -82,9 +82,9 @@ const MeetupFirstChallenge = () => {
                       width='83'
                       height='87'
                       filterUnits='userSpaceOnUse'
-                      color-interpolation-filters='sRGB'
+                      colorInterpolationFilters='sRGB'
                     >
-                      <feFlood flood-opacity='0' result='BackgroundImageFix' />
+                      <feFlood floodOpacity='0' result='BackgroundImageFix' />
                       <feBlend
                         mode='normal'
                         in='SourceGraphic'
@@ -140,22 +140,22 @@ const MeetupFirstChallenge = () => {
                       cy='41.5'
                       r='41.5'
                       fill='#46FF86'
-                      fill-opacity='0.5'
+                      fillOpacity='0.5'
                     />
                   </g>
                   <path
                     d='M16.083 41.5L41.4997 60.3643L66.9163 41.5'
                     stroke='white'
-                    stroke-width='3'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
+                    strokeWidth='3'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
                   />
                   <path
                     d='M28.791 33.8751L41.4993 44.0418L54.2077 33.8751M38.9577 26.2501L41.4993 28.2835L44.041 26.2501L41.4993 24.2168L38.9577 26.2501Z'
                     stroke='white'
-                    stroke-width='3'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
+                    strokeWidth='3'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
                   />
                   <defs>
                     <filter
@@ -165,9 +165,9 @@ const MeetupFirstChallenge = () => {
                       width='83'
                       height='87'
                       filterUnits='userSpaceOnUse'
-                      color-interpolation-filters='sRGB'
+                      colorInterpolationFilters='sRGB'
                     >
-                      <feFlood flood-opacity='0' result='BackgroundImageFix' />
+                      <feFlood floodOpacity='0' result='BackgroundImageFix' />
                       <feBlend
                         mode='normal'
                         in='SourceGraphic'
@@ -224,22 +224,22 @@ const MeetupFirstChallenge = () => {
                       cy='41.5'
                       r='41.5'
                       fill='#46FF86'
-                      fill-opacity='0.5'
+                      fillOpacity='0.5'
                     />
                   </g>
                   <path
                     d='M16.083 41.5L41.4997 60.3643L66.9163 41.5'
                     stroke='white'
-                    stroke-width='3'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
+                    strokeWidth='3'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
                   />
                   <path
                     d='M28.791 33.8751L41.4993 44.0418L54.2077 33.8751M38.9577 26.2501L41.4993 28.2835L44.041 26.2501L41.4993 24.2168L38.9577 26.2501Z'
                     stroke='white'
-                    stroke-width='3'
-                    stroke-linecap='round'
-                    stroke-linejoin='round'
+                    strokeWidth='3'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
                   />
                   <defs>
                     <filter
@@ -249,9 +249,9 @@ const MeetupFirstChallenge = () => {
                       width='83'
                       height='87'
                       filterUnits='userSpaceOnUse'
-                      color-interpolation-filters='sRGB'
+                      colorInterpolationFilters='sRGB'
                     >
-                      <feFlood flood-opacity='0' result='BackgroundImageFix' />
+                      <feFlood floodOpacity='0' result='BackgroundImageFix' />
                       <feBlend
                         mode='normal'
                         in='SourceGraphic'
@@ -326,7 +326,7 @@ const MeetupFirstChallenge = () => {
                   height='327'
                   rx='19.5'
                   fill='url(#paint0_linear_1255_144)'
-                  fill-opacity='0.1'
+                  fillOpacity='0.1'
                 />
                 <rect
                   x='4.5'
@@ -335,7 +335,7 @@ const MeetupFirstChallenge = () => {
                   height='327'
                   rx='19.5'
                   fill='url(#pattern0_1255_144)'
-                  fill-opacity='0.2'
+                  fillOpacity='0.2'
                 />
                 <rect
                   x='4.5'
@@ -347,37 +347,37 @@ const MeetupFirstChallenge = () => {
                 />
                 <mask id='path-2-inside-1_1255_144' fill='white'>
                   <path
-                    fill-rule='evenodd'
-                    clip-rule='evenodd'
+                    fillRule='evenodd'
+                    clipRule='evenodd'
                     d='M1214.63 20.6876C1214.63 9.26217 1203.8 1.32733e-05 1190.43 1.32733e-05L910.972 0C910.962 -4.03788e-10 910.953 4.42481e-06 910.944 1.32733e-05H429.475C416.112 1.32733e-05 405.279 10.8328 405.279 24.1958V303.657C405.279 317.02 416.112 327.853 429.475 327.853H866.776C877.822 327.853 886.776 336.807 886.776 347.853L886.776 671.312C886.776 682.738 897.609 692 910.972 692L1190.43 692C1203.8 692 1214.63 682.738 1214.63 671.312V303.657V24.1958V20.6876Z'
                   />
                 </mask>
                 <path
-                  fill-rule='evenodd'
-                  clip-rule='evenodd'
+                  fillRule='evenodd'
+                  clipRule='evenodd'
                   d='M1214.63 20.6876C1214.63 9.26217 1203.8 1.32733e-05 1190.43 1.32733e-05L910.972 0C910.962 -4.03788e-10 910.953 4.42481e-06 910.944 1.32733e-05H429.475C416.112 1.32733e-05 405.279 10.8328 405.279 24.1958V303.657C405.279 317.02 416.112 327.853 429.475 327.853H866.776C877.822 327.853 886.776 336.807 886.776 347.853L886.776 671.312C886.776 682.738 897.609 692 910.972 692L1190.43 692C1203.8 692 1214.63 682.738 1214.63 671.312V303.657V24.1958V20.6876Z'
                   fill='#0A1122'
                 />
                 <path
-                  fill-rule='evenodd'
-                  clip-rule='evenodd'
+                  fillRule='evenodd'
+                  clipRule='evenodd'
                   d='M1214.63 20.6876C1214.63 9.26217 1203.8 1.32733e-05 1190.43 1.32733e-05L910.972 0C910.962 -4.03788e-10 910.953 4.42481e-06 910.944 1.32733e-05H429.475C416.112 1.32733e-05 405.279 10.8328 405.279 24.1958V303.657C405.279 317.02 416.112 327.853 429.475 327.853H866.776C877.822 327.853 886.776 336.807 886.776 347.853L886.776 671.312C886.776 682.738 897.609 692 910.972 692L1190.43 692C1203.8 692 1214.63 682.738 1214.63 671.312V303.657V24.1958V20.6876Z'
                   fill='#D9D9D9'
-                  fill-opacity='0.05'
+                  fillOpacity='0.05'
                 />
                 <path
-                  fill-rule='evenodd'
-                  clip-rule='evenodd'
+                  fillRule='evenodd'
+                  clipRule='evenodd'
                   d='M1214.63 20.6876C1214.63 9.26217 1203.8 1.32733e-05 1190.43 1.32733e-05L910.972 0C910.962 -4.03788e-10 910.953 4.42481e-06 910.944 1.32733e-05H429.475C416.112 1.32733e-05 405.279 10.8328 405.279 24.1958V303.657C405.279 317.02 416.112 327.853 429.475 327.853H866.776C877.822 327.853 886.776 336.807 886.776 347.853L886.776 671.312C886.776 682.738 897.609 692 910.972 692L1190.43 692C1203.8 692 1214.63 682.738 1214.63 671.312V303.657V24.1958V20.6876Z'
                   fill='url(#paint1_linear_1255_144)'
-                  fill-opacity='0.2'
+                  fillOpacity='0.2'
                 />
                 <path
-                  fill-rule='evenodd'
-                  clip-rule='evenodd'
+                  fillRule='evenodd'
+                  clipRule='evenodd'
                   d='M1214.63 20.6876C1214.63 9.26217 1203.8 1.32733e-05 1190.43 1.32733e-05L910.972 0C910.962 -4.03788e-10 910.953 4.42481e-06 910.944 1.32733e-05H429.475C416.112 1.32733e-05 405.279 10.8328 405.279 24.1958V303.657C405.279 317.02 416.112 327.853 429.475 327.853H866.776C877.822 327.853 886.776 336.807 886.776 347.853L886.776 671.312C886.776 682.738 897.609 692 910.972 692L1190.43 692C1203.8 692 1214.63 682.738 1214.63 671.312V303.657V24.1958V20.6876Z'
                   fill='url(#pattern1_1255_144)'
-                  fill-opacity='0.2'
+                  fillOpacity='0.2'
                 />
                 <path
                   d='M1190.43 1.32733e-05V1.00001V1.32733e-05ZM910.972 0V-1V0ZM910.944 1.32733e-05V1.00001L910.945 1.00001L910.944 1.32733e-05ZM886.776 671.312H885.776H886.776ZM910.972 692V691V692ZM1190.43 692V693V692ZM886.776 347.853H885.776H886.776ZM1190.43 1.00001C1203.4 1.00001 1213.63 9.95565 1213.63 20.6876H1215.63C1215.63 8.56868 1204.2 -0.999987 1190.43 -0.999987V1.00001ZM910.972 1L1190.43 1.00001V-0.999987L910.972 -1V1ZM910.945 1.00001C910.954 1 910.963 1 910.972 1V-1C910.962 -1 910.953 -0.999995 910.943 -0.999986L910.945 1.00001ZM429.475 1.00001H910.944V-0.999987H429.475V1.00001ZM406.279 24.1958C406.279 11.3851 416.664 1.00001 429.475 1.00001V-0.999987C415.56 -0.999987 404.279 10.2806 404.279 24.1958H406.279ZM406.279 303.657V24.1958H404.279V303.657H406.279ZM429.475 326.853C416.664 326.853 406.279 316.468 406.279 303.657H404.279C404.279 317.573 415.56 328.853 429.475 328.853V326.853ZM866.776 326.853H429.475V328.853H866.776V326.853ZM887.776 671.312L887.776 347.853H885.776L885.776 671.312H887.776ZM910.972 691C898.008 691 887.776 682.044 887.776 671.312H885.776C885.776 683.431 897.209 693 910.972 693V691ZM1190.43 691L910.972 691V693L1190.43 693V691ZM1213.63 671.312C1213.63 682.044 1203.4 691 1190.43 691V693C1204.2 693 1215.63 683.431 1215.63 671.312H1213.63ZM1213.63 303.657V671.312H1215.63V303.657H1213.63ZM1213.63 24.1958V303.657H1215.63V24.1958H1213.63ZM1213.63 20.6876V24.1958H1215.63V20.6876H1213.63ZM866.776 328.853C877.269 328.853 885.776 337.36 885.776 347.853H887.776C887.776 336.255 878.374 326.853 866.776 326.853V328.853Z'
@@ -388,22 +388,22 @@ const MeetupFirstChallenge = () => {
                   <path
                     d='M228.348 93.7585C228.348 121.487 205.87 143.965 178.142 143.965C150.414 143.965 127.936 121.487 127.936 93.7585C127.936 66.0304 150.414 43.5522 178.142 43.5522C205.87 43.5522 228.348 66.0304 228.348 93.7585Z'
                     fill='#46FF86'
-                    fill-opacity='0.5'
+                    fillOpacity='0.5'
                   />
                 </g>
                 <path
                   d='M194.419 80.4341H197.509C200.596 80.4341 202.139 80.4341 202.946 81.494C203.751 82.5567 203.416 84.148 202.745 87.3334L201.743 92.1129C200.229 99.2934 194.701 104.635 187.992 105.737M160.998 80.4341H157.908C154.82 80.4341 153.275 80.4341 152.471 81.494C151.666 82.5567 152 84.148 152.671 87.3334L153.674 92.1129C155.188 99.2934 160.715 104.635 167.425 105.737M177.708 114.172C173.405 114.172 169.662 117.728 167.728 122.974C166.803 125.482 168.129 128.229 169.888 128.229H185.526C187.287 128.229 188.611 125.482 187.688 122.974C185.755 117.728 182.012 114.172 177.708 114.172Z'
                   stroke='white'
-                  stroke-width='3'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='3'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                 />
                 <path
                   d='M177.708 114.172C185.472 114.172 192.015 101.065 193.981 83.2178C194.524 78.2865 194.796 75.818 193.357 73.909C191.917 72 189.59 72 184.94 72H170.476C165.823 72 163.499 72 162.06 73.909C160.62 75.818 160.895 78.2865 161.435 83.2206C163.402 101.065 169.944 114.172 177.708 114.172Z'
                   stroke='white'
-                  stroke-width='3'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
+                  strokeWidth='3'
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
                 />
                 <rect
                   x='0.5'
@@ -419,7 +419,7 @@ const MeetupFirstChallenge = () => {
                     cy='94.5'
                     r='41.5'
                     fill='#46FF86'
-                    fill-opacity='0.5'
+                    fillOpacity='0.5'
                   />
                 </g>
                 <g filter='url(#filter2_i_1255_144)'>
@@ -428,7 +428,7 @@ const MeetupFirstChallenge = () => {
                     cy='446.5'
                     r='41.5'
                     fill='#46FF86'
-                    fill-opacity='0.5'
+                    fillOpacity='0.5'
                   />
                 </g>
                 <path
@@ -450,7 +450,7 @@ const MeetupFirstChallenge = () => {
                   height='327'
                   rx='19.5'
                   fill='#D9D9D9'
-                  fill-opacity='0.05'
+                  fillOpacity='0.05'
                 />
                 <rect
                   x='0.5'
@@ -459,7 +459,7 @@ const MeetupFirstChallenge = () => {
                   height='327'
                   rx='19.5'
                   fill='url(#paint2_linear_1255_144)'
-                  fill-opacity='0.2'
+                  fillOpacity='0.2'
                 />
                 <rect
                   x='0.5'
@@ -468,7 +468,7 @@ const MeetupFirstChallenge = () => {
                   height='327'
                   rx='19.5'
                   fill='url(#pattern2_1255_144)'
-                  fill-opacity='0.2'
+                  fillOpacity='0.2'
                 />
                 <rect
                   x='0.5'
@@ -479,8 +479,8 @@ const MeetupFirstChallenge = () => {
                   stroke='#56FF8F'
                 />
                 <path
-                  fill-rule='evenodd'
-                  clip-rule='evenodd'
+                  fillRule='evenodd'
+                  clipRule='evenodd'
                   d='M734.748 420.156C738.056 416.868 743.502 417.452 746.271 421.153L749.701 425.73C751.957 428.741 751.756 432.948 749.079 435.609L748.432 436.256C748.358 436.527 748.351 436.812 748.41 437.087C748.581 438.196 749.508 440.544 753.389 444.403C757.27 448.263 759.634 449.187 760.759 449.361C761.043 449.418 761.336 449.409 761.615 449.336L762.724 448.233C765.105 445.868 768.758 445.425 771.704 447.026L776.894 449.852C781.343 452.266 782.466 458.31 778.824 461.933L774.962 465.77C773.745 466.979 772.109 467.988 770.114 468.175C765.195 468.635 753.734 468.048 741.686 456.071C730.443 444.89 728.285 435.139 728.011 430.334C727.875 427.904 729.022 425.85 730.484 424.398L734.748 420.156ZM743.01 423.597C741.632 421.757 739.067 421.61 737.621 423.048L733.354 427.287C732.457 428.179 732.028 429.162 732.082 430.103C732.299 433.921 734.039 442.718 744.562 453.182C755.601 464.156 765.795 464.485 769.736 464.115C770.54 464.042 771.339 463.623 772.087 462.881L775.946 459.041C777.517 457.481 777.172 454.638 774.949 453.432L769.758 450.608C768.323 449.831 766.643 450.086 765.6 451.124L764.363 452.355L762.923 450.91C764.363 452.355 764.358 452.358 764.358 452.358L764.355 452.364L764.347 452.372L764.328 452.388L764.287 452.426C764.172 452.533 764.049 452.629 763.917 452.714C763.7 452.858 763.412 453.019 763.05 453.152C762.317 453.426 761.344 453.573 760.142 453.388C757.786 453.027 754.664 451.421 750.514 447.295C746.366 443.17 744.747 440.066 744.382 437.712C744.195 436.511 744.344 435.538 744.622 434.804C744.774 434.392 744.993 434.006 745.268 433.663L745.355 433.568L745.393 433.527L745.41 433.511L745.418 433.503L745.423 433.497L746.206 432.72C747.369 431.559 747.532 429.638 746.437 428.173L743.01 423.597Z'
                   fill='white'
                 />
@@ -518,9 +518,9 @@ const MeetupFirstChallenge = () => {
                     width='100.412'
                     height='104.413'
                     filterUnits='userSpaceOnUse'
-                    color-interpolation-filters='sRGB'
+                    colorInterpolationFilters='sRGB'
                   >
-                    <feFlood flood-opacity='0' result='BackgroundImageFix' />
+                    <feFlood floodOpacity='0' result='BackgroundImageFix' />
                     <feBlend
                       mode='normal'
                       in='SourceGraphic'
@@ -558,9 +558,9 @@ const MeetupFirstChallenge = () => {
                     width='83'
                     height='87'
                     filterUnits='userSpaceOnUse'
-                    color-interpolation-filters='sRGB'
+                    colorInterpolationFilters='sRGB'
                   >
-                    <feFlood flood-opacity='0' result='BackgroundImageFix' />
+                    <feFlood floodOpacity='0' result='BackgroundImageFix' />
                     <feBlend
                       mode='normal'
                       in='SourceGraphic'
@@ -598,9 +598,9 @@ const MeetupFirstChallenge = () => {
                     width='83'
                     height='87'
                     filterUnits='userSpaceOnUse'
-                    color-interpolation-filters='sRGB'
+                    colorInterpolationFilters='sRGB'
                   >
-                    <feFlood flood-opacity='0' result='BackgroundImageFix' />
+                    <feFlood floodOpacity='0' result='BackgroundImageFix' />
                     <feBlend
                       mode='normal'
                       in='SourceGraphic'
@@ -650,8 +650,8 @@ const MeetupFirstChallenge = () => {
                     y2='328'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stop-color='#D9D9D9' />
-                    <stop offset='1' stop-color='#56FF8F' />
+                    <stop stopColor='#D9D9D9' />
+                    <stop offset='1' stopColor='#56FF8F' />
                   </linearGradient>
                   <linearGradient
                     id='paint1_linear_1255_144'
@@ -661,8 +661,8 @@ const MeetupFirstChallenge = () => {
                     y2='692'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stop-opacity='0' />
-                    <stop offset='1' stop-color='#56FF8F' />
+                    <stop stopOpacity='0' />
+                    <stop offset='1' stopColor='#56FF8F' />
                   </linearGradient>
                   <linearGradient
                     id='paint2_linear_1255_144'
@@ -672,8 +672,8 @@ const MeetupFirstChallenge = () => {
                     y2='692'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stop-opacity='0' />
-                    <stop offset='1' stop-color='#56FF8F' />
+                    <stop stopOpacity='0' />
+                    <stop offset='1' stopColor='#56FF8F' />
                   </linearGradient>
                   <image
                     id='image0_1255_144'
