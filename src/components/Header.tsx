@@ -103,7 +103,7 @@ const Header = () => {
           </Button>
         </div>
       </header>
-      <div className={`${isMenuOpened ? 'block opacity-100' : 'hidden opacity-0'} bg-black/80 backdrop-blur w-full h-screen fixed top-0 left-0 z-50`}>
+      <div className={`md:hidden ${isMenuOpened ? 'block opacity-100' : 'hidden opacity-0'} bg-black/80 backdrop-blur w-full h-screen fixed top-0 left-0 z-50`}>
         <div className='container mx-auto px-4 py-4 flex items-center justify-between'>
           <div className='flex items-center'>
             <Link to='/'>
