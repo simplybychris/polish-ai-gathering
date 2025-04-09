@@ -91,6 +91,9 @@ const Agenda = () => {
                             ))}
                         </ul>
                     ) : null}
+                    {item.presenter ? (
+                        <p className='text-sm text-white font-normal my-3'><span className='font-semibold'>Prowadzący: </span>{item.presenter}</p>
+                    ) : null}
                     <p className='text-sm text-gray-400'>{item.location}</p>
                   </div>
                   <div className='text-sm font-medium text-[#56FF8F] whitespace-nowrap'>
