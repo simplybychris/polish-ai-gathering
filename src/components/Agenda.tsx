@@ -77,11 +77,20 @@ const Agenda = () => {
           <div className='space-y-8'>
             {agendaItems.map((item, index) => (
               <div key={index} className='agenda-item'>
-                <div className='flex flex-col md:flex-row md:items-center justify-between'>
+                <div className='flex flex-col md:flex-row md:items-baseline justify-between'>
                   <div className='mb-2 md:mb-0'>
                     <h3 className='text-lg font-semibold text-white'>
                       {item.title}
                     </h3>
+                    {item.panelists ? (
+                        <ul className='text-white font-normal list-disc list-inside my-3'>
+                            {item.panelists.map((panelist, index) => (
+                                <li key={index} className='text-sm'>
+                                    {panelist}
+                                </li>
+                            ))}
+                        </ul>
+                    ) : null}
                     <p className='text-sm text-gray-400'>{item.location}</p>
                   </div>
                   <div className='text-sm font-medium text-[#56FF8F] whitespace-nowrap'>
