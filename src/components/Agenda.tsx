@@ -17,12 +17,24 @@ const Agenda = () => {
       time: '16:40',
       endTime: '17:00',
       title: '"Polski Ekosystem AI. Fabryki, modele, projekty, ludzie"',
+      panelists: [
+        'Maciej Szymański (Speaklesh/Edisonda)',
+        'Szymon Baczyński (Speaklesh)',
+      ],
       location: 'AULA • PAIB_WARSAW',
     },
     {
       time: '17:00',
       endTime: '17:40',
-      title: 'Panel Dyskusyjny: "Polskie LLMy. 3 Perspektywy: biznes, państwo, społeczeństwo"',
+      title:
+        'Panel Dyskusyjny: "Polskie LLMy. 3 Perspektywy: biznes, państwo, społeczeństwo"',
+      panelists: [
+        'dr Marek Kozłowski (PLLuM/OPI)',
+        'Witold Wydmański (Gaius Lex)',
+        'Przemysław Jurgiel-Żyła (SpeakLesh)',
+        'dr Agnieszka Karlińska (PLLuM/NASK)',
+      ],
+      presenter: 'Michał Domański (SpeakLesh/Bielik Consulting/Omniviser)',
       location: 'AULA • PAIB_WARSAW',
     },
     {
