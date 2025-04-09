@@ -72,7 +72,7 @@ const Agenda = () => {
                     </h3>
                     <p className='text-sm text-gray-400'>{item.location}</p>
                   </div>
-                  <div className='text-sm font-medium text-[#56FF8F]'>
+                  <div className='text-sm font-medium text-[#56FF8F] whitespace-nowrap'>
                     {item.time} - {item.endTime}
                   </div>
                 </div>
