@@ -31,7 +31,7 @@ const Agenda = () => {
       panelists: [
         'dr Marek Kozłowski (PLLuM/OPI)',
         'Witold Wydmański (Gaius Lex)',
-        'Przemysław Jurgiel-Żyła (SpeakLeash)',
+        'Przemysław Jurgiel-Żyła (Movens Capital)',
         'dr Agnieszka Karlińska (PLLuM/NASK)',
       ],
       presenter: 'Michał Domański (SpeakLeash/Bielik Consulting/Omniviser)',
