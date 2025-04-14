@@ -18,8 +18,8 @@ const Agenda = () => {
       endTime: '17:00',
       title: '"Polski Ekosystem AI. Fabryki, modele, projekty, ludzie"',
       panelists: [
-        'Maciej Szymański (Speaklesh/Edisonda)',
-        'Szymon Baczyński (Speaklesh)',
+        'Maciej Szymański (SpeakLeash/Edisonda)',
+        'Szymon Baczyński (SpeakLeash)',
       ],
       location: 'AULA • PAIB_WARSAW',
     },
@@ -31,10 +31,10 @@ const Agenda = () => {
       panelists: [
         'dr Marek Kozłowski (PLLuM/OPI)',
         'Witold Wydmański (Gaius Lex)',
-        'Przemysław Jurgiel-Żyła (SpeakLesh)',
+        'Przemysław Jurgiel-Żyła (SpeakLeash)',
         'dr Agnieszka Karlińska (PLLuM/NASK)',
       ],
-      presenter: 'Michał Domański (SpeakLesh/Bielik Consulting/Omniviser)',
+      presenter: 'Michał Domański (SpeakLeash/Bielik Consulting/Omniviser)',
       location: 'AULA • PAIB_WARSAW',
     },
     {
