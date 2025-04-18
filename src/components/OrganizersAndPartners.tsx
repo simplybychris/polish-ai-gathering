@@ -13,7 +13,6 @@ const partners = [
     { id: 2, src: '/images/logos/partners/benchy.svg', alt: 'Benchy.it' },
     { id: 3, src: '/images/logos/partners/bielik.svg', alt: 'Bielik' },
     { id: 4, src: '/images/logos/partners/concordia.svg', alt: 'Concordia Design' },
-    { id: 5, src: '/images/logos/partners/founders_beer.svg', alt: 'Founders Beer' },
     { id: 6, src: '/images/logos/partners/huge-thing.svg', alt: 'Huge Thing' },
     { id: 7, src: '/images/logos/partners/inqube.svg', alt: 'inQUBE' },
     { id: 8, src: '/images/logos/partners/no_fluff_jobs.svg', alt: 'No Fluff Jobs' },
@@ -23,6 +22,19 @@ const partners = [
     { id: 12, src: '/images/logos/partners/ssf.svg', alt: 'silesian startap foundation' },
     { id: 13, src: '/images/logos/partners/startup_harbour.svg', alt: 'STARTUP HARBOUR' },
     { id: 14, src: '/images/logos/partners/startup_wroclaw.svg', alt: 'Startup Wrocław' },
+    { id: 15, src: '/images/logos/partners/lbkp.svg', alt: 'LBKP' },
+    { id: 17, src: '/images/logos/partners/campusai.svg',   alt: 'Campus AI' },
+    { id: 18, src: '/images/logos/partners/evento.svg',     alt: 'Evento' },
+    { id: 19, src: '/images/logos/partners/hugething.svg',  alt: 'Huge Thing' },
+    { id: 20, src: '/images/logos/partners/mcsc.svg',       alt: 'MCSC' },
+    { id: 21, src: '/images/logos/partners/personitit.svg', alt: 'Personit IT' }
+]
+
+const sponsors = [
+  { id: 1, src: '/images/logos/sponsors/aiba.svg', alt: 'AIBA' },
+  { id: 2, src: '/images/logos/sponsors/benchy.svg', alt: 'Benchy.it' },
+  { id: 3, src: '/images/logos/sponsors/no_fluff_jobs.svg', alt: 'No Fluff Jobs' },
+  { id: 4, src: '/images/logos/sponsors/concordia.svg', alt: 'Concordia Design' }
 ]
 
 const OrganizersAndPartners = () => {
@@ -43,6 +55,17 @@ const OrganizersAndPartners = () => {
         <h3 className="text-2xl md:text-3xl font-bold text-center mt-24 mb-12 text-[#56FF8F]">Partnerzy ekosystemowi</h3>
         <div className='grid grid-cols-2 md:grid-cols-4 gap-4 p-4 place-items-center'>
           {partners.map((logo) => (
+            <div
+              key={logo.id}
+              className='flex justify-center items-center p-4'
+            >
+              <img src={logo.src} alt={logo.alt} className='max-h-20' />
+            </div>
+          ))}
+        </div>
+        <h3 className="text-2xl md:text-3xl font-bold text-center mt-24 mb-12 text-[#56FF8F]">Sponsorzy konkursu</h3>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-4 p-4 place-items-center'>
+          {sponsors.map((logo) => (
             <div
               key={logo.id}
               className='flex justify-center items-center p-4'
