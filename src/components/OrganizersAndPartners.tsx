@@ -24,10 +24,11 @@ const partners = [
     { id: 14, src: '/images/logos/partners/startup_wroclaw.svg', alt: 'Startup Wrocław' },
     { id: 15, src: '/images/logos/partners/lbkp.svg', alt: 'LBKP' },
     { id: 17, src: '/images/logos/partners/campusai.svg',   alt: 'Campus AI' },
-    { id: 18, src: '/images/logos/partners/evento.svg',     alt: 'Evento' },
-    { id: 19, src: '/images/logos/partners/hugething.svg',  alt: 'Huge Thing' },
-    { id: 20, src: '/images/logos/partners/mcsc.svg',       alt: 'MCSC' },
-    { id: 21, src: '/images/logos/partners/personitit.svg', alt: 'Personit IT' }
+    { id: 16, src: '/images/logos/partners/hugething.svg',  alt: 'Huge Thing' },
+    { id: 17, src: '/images/logos/partners/mcsc.svg',       alt: 'MCSC' },
+    { id: 18, src: '/images/logos/partners/movenscapital.svg', alt: 'Movens Capital' },
+    { id: 19, src: '/images/logos/partners/personitit.svg', alt: 'Personit IT' },
+    { id: 20, src: '/images/logos/partners/evento.svg',     alt: 'Evento' }
 ]
 
 const sponsors = [
