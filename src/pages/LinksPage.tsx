@@ -147,7 +147,7 @@ const LinksPage = () => {
       icon: <FaWhatsapp />,
       title: t('links.whatsapp'),
       description: t('links.whatsappDesc'),
-      url: 'https://chat.whatsapp.com/your-group-link',
+      url: 'https://2ly.link/26X7o',
     },
     {
       icon: <FaCalendar />,
@@ -159,20 +159,20 @@ const LinksPage = () => {
       icon: <FaStar />,
       title: t('links.feedback'),
       description: t('links.feedbackDesc'),
-      url: 'https://forms.gle/your-form-link',
+      url: '#',
     },
     {
       icon: <FaPhone />,
       title: t('links.contact'),
       description: t('links.contactDesc'),
-      url: 'tel:+48123456789',
-    },
-    {
-      icon: <FaEnvelope />,
-      title: t('links.email'),
-      description: t('links.emailDesc'),
-      url: 'mailto:contact@your-event.com',
-    },
+      url: 'tel:+48727909526',
+    }
+    // {
+    //   icon: <FaEnvelope />,
+    //   title: t('links.email'),
+    //   description: t('links.emailDesc'),
+    //   url: 'mailto:contact@your-event.com',
+    // },
   ];
 
   return (

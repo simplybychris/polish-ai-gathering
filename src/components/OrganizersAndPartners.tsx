@@ -35,7 +35,9 @@ const sponsors = [
   { id: 1, src: '/images/logos/sponsors/aiba.svg', alt: 'AIBA' },
   { id: 2, src: '/images/logos/sponsors/benchy.svg', alt: 'Benchy.it' },
   { id: 3, src: '/images/logos/sponsors/no_fluff_jobs.svg', alt: 'No Fluff Jobs' },
-  { id: 4, src: '/images/logos/sponsors/concordia.svg', alt: 'Concordia Design' }
+  { id: 4, src: '/images/logos/sponsors/concordia.svg', alt: 'Concordia Design' },
+  { id: 5, src: '/images/logos/sponsors/buyermind.svg', alt: 'BuyerMind' },
+  { id: 6, src: '/images/logos/sponsors/aimlapi.svg', alt: 'AI/ML API' },
 ]
 
 const OrganizersAndPartners = () => {
