@@ -159,7 +159,7 @@ const LinksPage = () => {
       icon: <FaStar />,
       title: t('links.feedback'),
       description: t('links.feedbackDesc'),
-      url: '#',
+      url: 'https://airtable.com/appHmafAQFBR9f1Bp/pagqfhkIPa5q4uIeE/form',
     },
     {
       icon: <FaPhone />,
